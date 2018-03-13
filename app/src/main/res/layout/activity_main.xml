@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.myzuoye.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/radioGroup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        ></android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/radioGroup">
+    <RadioButton
+        android:id="@+id/zy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@mipmap/page_home"
+        android:text="@string/zy"
+        android:gravity="center"
+        android:button="@null"
+        />
+        <RadioButton
+            android:id="@+id/fx"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/page_find"
+            android:text="@string/fx"
+            android:gravity="center"
+            android:button="@null"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@mipmap/page_release"
+             />
+        <RadioButton
+            android:id="@+id/cz"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/page_grow"
+            android:text="@string/cz"
+            android:gravity="center"
+            android:button="@null"
+            />
+        <RadioButton
+            android:id="@+id/me"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/page_me"
+            android:text="@string/me"
+            android:gravity="center"
+            android:button="@null"
+            />
+
+    </RadioGroup>
+</RelativeLayout>

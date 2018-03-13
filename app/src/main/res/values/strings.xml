@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">亲子软件</string>
+    <string name="zy">主页</string>
+    <string name="fx">发现</string>
+    <string name="cz">成长</string>
+    <string name="me">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
